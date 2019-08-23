@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
-    android:id="@+id/popUplayout"
+    android:id="@+id/popUp_layout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="150dp"
@@ -8,8 +8,10 @@
     >
 
     <EditText
+        android:id="@+id/edit_in_popup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"/> />
+        android:hint="Name"
+        android:inputType="text"/>
 
 </FrameLayout>
